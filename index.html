@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine's Day Surprise</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hey Mi amor!</h1>
+        <button class="clickMe" onclick="showMessage()">Click Me!</button>
+        <div id="heart-container" class="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e74c3c" width="150px" height="150px" class="zoom">
+                <path d="M12 21.35l-1.45-1.32C5.4 14.25 2 11.36 2 8.5 2 5.42 4.42 3 7.5 3 9 3 12 5.24 12 5.24S15 3 16.5 3C19.58 3 22 5.42 22 8.5c0 2.86-3.4 5.75-8.55 11.54L12 21.35z"/>
+            </svg>
+        </div>
+        <div id="cry-container" class="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3498db" width="150px" height="150px" class="zoom">
+                <circle cx="12" cy="12" r="10" fill="#f0c6c6" stroke="#d48c8c" stroke-width="2"/>
+                <circle cx="9" cy="10" r="1.5" fill="#3d3d3d"/>
+                <circle cx="15" cy="10" r="1.5" fill="#3d3d3d"/>
+                <path d="M12 15 C 10.5 16, 13.5, 16, 12, 15" stroke="#3d3d3d" fill="transparent" stroke-width="2"/>
+            </svg>
+        </div>
+        <p id="hiddenMessage">I love you 3000 times. Will you be my Valentine?</p>
+        <button class="option-btn" onclick="chooseOption('yes')">Yes</button>
+        <button class="option-btn" onclick="chooseOption('no')">No</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
